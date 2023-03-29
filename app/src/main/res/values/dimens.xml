@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_product_detail_size">200dp</dimen>
+    <dimen name="image_item_detail_size">100dp</dimen>
+
+    <dimen name="padding_size_small">8dp</dimen>
+
+    <dimen name="margin_size_normal">10dp</dimen>
+    <dimen name="margin_size_big">20dp</dimen>
+
+    <dimen name="font_size_normal">16sp</dimen>
+    <dimen name="font_size_big">20sp</dimen>
+    <dimen name="font_size_very_big">28sp</dimen>
+
+    <dimen name="shimmer_normal_size">150dp</dimen>
+    <dimen name="shimmer_small_size">120dp</dimen>
+</resources>

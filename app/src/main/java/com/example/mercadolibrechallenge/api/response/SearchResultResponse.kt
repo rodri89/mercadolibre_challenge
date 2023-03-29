@@ -1,8 +1,6 @@
-package com.example.mercadolibrechallenge.api.models
+package com.example.mercadolibrechallenge.api.response
 
-import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
 
 data class SearchResultResponse(
     @SerializedName("query")
@@ -13,29 +11,7 @@ data class SearchResultResponse(
 
     @SerializedName("paging")
     val paging: Paging
-
 )
-
-@Parcelize
-data class ProductResponse(
-
-    @SerializedName("id")
-    val id: String,
-
-    @SerializedName("title")
-    val title: String,
-
-    @SerializedName("thumbnail")
-    val thumbnail: String,
-
-    @SerializedName("price")
-    val price: Int,
-
-    @SerializedName("original_price")
-    val originalPrice: Int
-
-): Parcelable
-
 
 data class Paging(
     @SerializedName("total")
